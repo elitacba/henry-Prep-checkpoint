@@ -1,10 +1,11 @@
 
 // Funciones
 
+
 function menorMayor(numeros) {
   // Escribi una función llamada menorMayor que tome como entrada un arreglo de números y devuelva un arreglo 
   // que contenga el menor número del arreglo en la posición cero y el mayor número del arreglo en la posición 1.
-  // Ej: menorMayor([4, 6, 1, 7, 15]) // retorna [1, 15]
+  // Ej: menorMayor([4, 6, 1, 7, 15]) // retorna [1
 
 }
 
@@ -60,9 +61,9 @@ function crearClasePersona() {
   // Esta funcion debe retonar la clase Persona.
 
   class Persona {
-    constructor(nombre, edad, hobbies, amigos) {
-      
-    }
+    constructor(nombre, edad, hobbies, amigos) {  
+    
+    } 
 
     addFriend(nombre, edad) {
       // el metodo addFriend recibe un string nombre y un entero edad y debe agregar un objeto:
@@ -104,10 +105,15 @@ function crearClasePersona() {
       //   }]
       // }
       // persona.getPromedioEdad() // retorna 29
+      var promedio = 0
+        for (var i= 0; i < this.persona.length; i++){
+          promedio = promedio + this.persona[i].edad;
+        }
+        return promedio / this.persona.length;
     }
   };
 
-  return Persona;
+  return persona;
 }
 
 
