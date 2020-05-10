@@ -1,0 +1,11 @@
+
+#divClass {
+    width: 500px; 
+    background-color: yellow;
+    margin-left: 30%}
+#img {
+    display: block;
+    margin: auto;}
+#link:visited
+    { color: green;
+     text-decoration: none}
